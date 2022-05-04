@@ -1,0 +1,29 @@
+body{
+    background: rgb(159, 159, 209); /*Adicionar gradient color*/
+    font: normal 18pt Arial;
+}
+
+main{
+    color: #000;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(53, 46, 46);  
+}
+
+label{
+    margin: 5px;
+}
+
+input{
+   
+    height: 20px;
+    width: 200px;
+    border-radius: 25px;
+}

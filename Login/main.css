@@ -1,0 +1,54 @@
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+    font: normal 18pt Arial;
+}
+
+main{
+    color: rgb(17, 5, 83);
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(53, 46, 46);  
+}
+
+label{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 100px 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: 1px #020527 solid;
+    border-radius: 20px;
+
+}
+
+.btn{
+    border: 1px #020527 solid;
+    font-family:'Times New Roman', Times, serif;
+    width: 25%;
+    height: 25px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #e66465;
+    background-color: white;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #e66465;
+    transition: 1s all;
+}
